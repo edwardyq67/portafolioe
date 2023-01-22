@@ -1,0 +1,39 @@
+.pag2{
+   width: 100%;
+   height: auto;
+   overflow: hidden;
+   background: rgba(0, 0, 0, .6);
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.carrusel .item{
+list-style: none;
+font-size: 1700%;
+margin: auto;
+
+}
+.carrusel-items{
+    display: flex;
+    
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 20s linear infinite;
+    width: calc(400px*10);
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(calc(-200px*10));
+    }
+}
+.item h4{
+    color: rgb(219, 219, 207);
+    font-size: 20px;
+    text-align: center;
+    margin-top: -40px;
+   font-family: Eras Bold ITC;
+   letter-spacing: 1px;
+   margin-bottom: 20PX;
+}

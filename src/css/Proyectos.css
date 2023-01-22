@@ -1,0 +1,45 @@
+.pag3{
+    width: 100%;
+    height: auto;
+    
+}
+.cajagareria1{
+    background-image: url(../img/e-comer.PNG);
+    background-size:cover;
+    background-repeat:none;}
+.cajagareria2{
+    background-image: url(../img/trabajo1.PNG);background-size: cover;
+    width: 100%;
+    height: auto;
+    background-repeat:none;}
+.cajagareria3{background-image: url(../img/trabajo2.PNG);background-size: cover;background-repeat:none;}
+.cajagareria4{background-image: url(../img/trabajo3.PNG);background-size: cover;background-repeat:none;}
+
+
+.gareria{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.gareria>a{
+    margin: 15px;
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-size: auto 100%;
+    transition: all .6s cubic-bezier(.25,.4,.45,1.4);
+    
+}
+
+.gareria>a:hover{
+    flex: 3;
+    
+}
+.gareria .text{
+    text-align: center;
+    opacity: 1;
+    position: absolute;
+    
+}

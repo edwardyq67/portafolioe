@@ -1,0 +1,64 @@
+.pag4{
+    width: 100%;
+    height: auto;
+    
+}
+.btn-conocimiento{
+    
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    font-size: 40px;
+}
+.btn-conocimiento i{
+    background: gold;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    color: none;
+    cursor: pointer;
+    
+}
+.btn-conocimiento i:hover{
+    color: aliceblue;
+}
+.contactemeI div{
+    font-size: 60px;
+    position: relative;
+    left: 20px;
+    margin-right: 40px;
+    
+}
+.x-cono{
+    position: relative;
+    top: -250px;
+    left: 80px;
+    cursor: pointer;
+    color: rgb(53, 95, 133);
+    font-size: 20px;
+}
+.x-cono:hover{
+    color: aliceblue;
+}
+#btn-conocimiento{
+    display: none;
+}
+.contactame{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    background: gold;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    transition: all 500ms ease;
+    transform: translatey(100%);
+}
+#btn-conocimiento:checked~.contactame{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0%);
+}
