@@ -4,7 +4,7 @@ import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 const Conoceme = () => {
     return (
-        <div >
+        <div className='conoseme-pag'>
              
              <div class="cuadros row g-0 text-center">
   <div data-aos="fade-left" class="primera col-sm-6 col-md-7">

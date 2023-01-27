@@ -11,7 +11,7 @@
     font-size: 40px;
 }
 .btn-conocimiento i{
-    background: gold;
+    background: rgb(42, 236, 68);
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
@@ -36,11 +36,11 @@
     top: -250px;
     left: 80px;
     cursor: pointer;
-    color: rgb(53, 95, 133);
+    color: rgb(255, 255, 255);
     font-size: 20px;
 }
 .x-cono:hover{
-    color: aliceblue;
+    color: rgb(255, 251, 1);
 }
 #btn-conocimiento{
     display: none;
@@ -51,7 +51,7 @@
     position: fixed;
     bottom: 0;
     right: 20px;
-    background: gold;
+    background: rgb(42, 236, 68);
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     transition: all 500ms ease;
@@ -61,4 +61,8 @@
     opacity: 1;
     visibility: visible;
     transform: translateX(0%);
+}
+.contactemeI div i, label{
+    color: aliceblue;
+    cursor: pointer;
 }

@@ -11,8 +11,8 @@ import { useState } from 'react'
 import imgLogo from './logo/CapturaTDO-removebg-preview.png';
 import letraLogo from './logo/CapturaEDWARD-removebg-preview.png'
 function App() {
-  
-  
+ 
+
   return (
     <div  className='Ap'>
       <div className="container">
@@ -20,12 +20,12 @@ function App() {
           <div className="Lgoimg"><img src={imgLogo} alt="" /></div>
         </div>
         <div className="menu">
-          <a href="">Conoceme</a>
-          <a href="">Conocimientos</a>
-          <a href="">Contactame</a>
+          <a href="#conoceme">Conoceme</a>
+          <a href="#conocimiento">Conocimientos</a>
+          <a href="#proyecto">Proyectos</a>
         </div>
         <div className="btn-menu">
-        <label htmlFor="btn-menu"><i class="fa-solid fa-bars"></i></label>
+        <label htmlFor="btn-menu"><i className="fa-solid fa-bars"></i></label>
         </div>
       </div>
       
@@ -34,20 +34,20 @@ function App() {
       <div className="coneteinr-menu">
         <div className="cont-menu">
         <nav>
-        <a href="">Conoceme</a>
-          <a href="">Conocimientos</a>
-          <a href="">Contactame</a>
+        <a href="#conoceme">Conoceme</a>
+          <a href="#conocimiento">Conocimientos</a>
+          <a href="#proyecto">Proyectos</a>
         </nav>
-        <label htmlFor="btn-menu"><i class="fa-solid fa-x"></i></label>
+        <label htmlFor="btn-menu"><i className="fa-solid fa-x"></i></label>
       </div>
       </div>
       
 
-        <section ><Conoceme/></section>  
+        <section id='conoceme'><Conoceme/></section>  
         <h2 data-aos="fade-up" className='app-conocimientos'>Conocimientos</h2>    
-        <section className="pag2 col-sm-12"><Conocimiento/></section>
-        <h2 data-aos="fade-up" className='app-conocimientos'>Proyectos</h2>
-        <section className="pag3 col-sm-12" ><Proyectos/></section>
+        <section id='conocimiento' className="pag2 "><Conocimiento/></section>
+        <h2  className='app-conocimientos'>Proyectos</h2>
+        <section id='proyecto' className="pag3 " ><Proyectos/></section>
         <section ><Contactame/></section>
       
     </div>

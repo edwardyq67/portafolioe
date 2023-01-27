@@ -6,7 +6,7 @@
 }
 .cuadros{
     margin: auto;
-    
+    margin-top: 100px;
     width: 90%;
     justify-content: center;
 }
@@ -14,7 +14,7 @@
     font-family: Eras Bold ITC;
     margin-right: 4%;
     margin-left: 4%;
-    
+    padding-top: 48px;
 }
 
 .segunda img{
@@ -38,7 +38,7 @@
     background: black;
     min-height: 200px;
     padding: 20px;
-   
+    
   }
   
   .primera2{
