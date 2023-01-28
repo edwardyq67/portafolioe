@@ -66,3 +66,8 @@
     color: aliceblue;
     cursor: pointer;
 }
+.conoseme-pag img{
+    border: 2px solid yellow;
+    
+    border-radius: 10px;
+}

@@ -1,5 +1,6 @@
 import React from 'react';
-import yo from'../img/yo.jpg'
+import yo1 from'../img/yo-t.png'
+import yo2 from'../img/yo-mano.png'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 const Conoceme = () => {
@@ -23,11 +24,11 @@ const Conoceme = () => {
     </div>
     
     </div>
-  <div  data-aos="fade-left" class="segunda col-6 col-md-3"><img src={yo} alt="" /></div>
+  <div  data-aos="fade-left" class="segunda col-6 col-md-3"><img src={yo1} alt="" /></div>
   
 </div>
 <div data-aos="fade-right" class="cuadros row g-0 text-center">
-  <div class="segunda col-6 col-md-3"><img src={yo} alt="" /></div>
+  <div class="segunda col-6 col-md-3"><img src={yo2} alt="" /></div>
   <div class="primera2 col-sm-6 col-md-7">
   <h2>Soy Edward Yllanes Quirari</h2>
       <p>Desarrollador web especializado en React.js. 
