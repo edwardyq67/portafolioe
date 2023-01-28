@@ -11,7 +11,7 @@ const Contactame = () => {
         
         <div className="contactame">
         <div className='contactemeI'>
-            <a href="https://wa.me/52916628409">
+            <a href="https://wa.me/51916628409">
             <div className="whatsapp"><i className="fa-brands fa-whatsapp"></i></div></a>
             <a href="mailto:edwardyq67@gmail.com">
                 <div className="gmail"><i className="fa-solid fa-envelope"></i></div>

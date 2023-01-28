@@ -5,7 +5,21 @@ import ing3 from '../img/trabajo3.jpg'
 import e from '../img/e-comer.jpg'
 
 const Proyectos = () => {
-    
+    /*<div className="card-proyeectos">
+                    <a href="https://aesthetic-speculoos-998afc.netlify.app" target='_blank'>
+                    <figure>
+                        <img src={e}/>
+                    </figure>
+                    </a>
+                    <div className="contenido">
+                        <h3>e-comer</h3>
+                        <p>Una tienda, donde podras ver los productos y los favoritos de los usuarios ya registrado, este Proyecto ya tienen usuarios.</p>
+                            <a href="https://aesthetic-speculoos-998afc.netlify.app" target='_blank'><i className="fa-regular fa-eye"></i></a>
+                        <a href="https://github.com/edwardyq67/trabajo-e" target='_blank'><i className="fa-brands fa-github"></i></a>
+                   
+                    </div>
+                    
+                </div> */
     return (
         <div >
             <div className="container-proyectos">
@@ -35,7 +49,7 @@ const Proyectos = () => {
                     </a>
                     <div className="contenido">
                         <h3>Busqueda</h3>
-                        <p>Sirve para la busqueda de los personajes de la serie de Rick and morty, podras saver la informacion de uvicacion, si esta vivo o no y mucho mas</p>
+                        <p>Sirve para la busqueda de los personajes de la serie de Rick and morty, podras saber la informacion de ubicacion, si esta vivo o no y mucho más</p>
                             <a href="https://preeminent-kleicha-314e2c.netlify.app" target='_blank'><i className="fa-regular fa-eye"></i></a>
                         <a href="https://github.com/edwardyq67/trabajo3" target='_blank'><i className="fa-brands fa-github"></i></a>
                    
@@ -56,21 +70,8 @@ const Proyectos = () => {
                     </div>
                     
                 </div>
-                <div className="card-proyeectos">
-                    <a href="https://aesthetic-speculoos-998afc.netlify.app" target='_blank'>
-                    <figure>
-                        <img src={e}/>
-                    </figure>
-                    </a>
-                    <div className="contenido">
-                        <h3>e-comer</h3>
-                        <p>Una tienda, donde podras ver los productos y los favoritos de los usuarios ya registrado, este Proyecto ya tienen usuarios.</p>
-                            <a href="https://aesthetic-speculoos-998afc.netlify.app" target='_blank'><i className="fa-regular fa-eye"></i></a>
-                        <a href="https://github.com/edwardyq67/trabajo-e" target='_blank'><i className="fa-brands fa-github"></i></a>
-                   
-                    </div>
-                    
-                </div>
+                
+                
             </div>
         </div>
     );
