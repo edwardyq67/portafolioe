@@ -22,8 +22,8 @@ const Proyectos = () => {
                 </div> */
     return (
         <div >
-            <div className="container-proyectos">
-                <div className="card-proyeectos">
+            <div  data-aos="zoom-in" className="container-proyectos">
+                <div  className="card-proyeectos">
                     
                     <a href="https://luminous-madeleine-13484b.netlify.app">
                     <figure><div className="capa-pryectos">

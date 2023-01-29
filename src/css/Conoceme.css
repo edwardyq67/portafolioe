@@ -105,3 +105,15 @@
       margin-top: 0;
     }
   }
+  .caja-h3 a {
+    font-size: 40px;
+    color: rgb(168, 149, 149);
+    background: rgb(42, 236, 68);
+    padding: 5px;
+    border-radius: 10px;
+    
+  }
+  .caja-h3 a:hover{
+    color: rgb(168, 149, 149);
+    background: rgb(174, 231, 18);
+  }

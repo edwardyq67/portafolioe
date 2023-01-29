@@ -46,7 +46,7 @@ function App() {
         <section id='conoceme'><Conoceme/></section>  
         <h2 data-aos="fade-up" className='app-conocimientos'>Conocimientos</h2>    
         <section id='conocimiento' className="pag2 "><Conocimiento/></section>
-        <h2  className='app-conocimientos'>Proyectos</h2>
+        <h2   data-aos="fade-up" className='app-conocimientos'>Proyectos</h2>
         <section id='proyecto' className="pag3 " ><Proyectos/></section>
         <section ><Contactame/></section>
       

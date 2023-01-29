@@ -41,6 +41,9 @@ const Conoceme = () => {
       <h3><b>Edad: </b>21</h3>
       <h3><b>telefono: </b>916628409</h3>
       <h3><b>Correo: </b>edwardyq67@gmail.com</h3>
+      
+      <a href="https://drive.google.com/file/d/1qHv_gMv2nZ1zYwbS_rYYe8Yc5wqmDDPa/view?usp=sharing" target='_blank'><i className="fa-solid fa-folder-open"> cv</i></a>
+      
       </div>
       
   </div>
