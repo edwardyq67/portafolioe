@@ -33,12 +33,12 @@ const Conoceme = () => {
   <h2>Soy Edward Yllanes Quirari</h2>
       <p>Desarrollador web especializado en React.js. 
         Soy un apasionado de la tecnología con una increíble capacidad del auto 
-        aprendizaje, tengo 21 años y soy del departameto Lima, provincia Lima;
+        aprendizaje soy del departameto Lima, provincia Lima;
          me encantaría ser parte de tu equipo, si tienes alguna duda o quieres saber más de mi,
           puedes contactarme a través de mis redes sociales o por un mensaje a traves del formulario de contacto.</p>
       <div className="caja-h3">
         <h3><b>Nombre: </b>Edward Yllanes Quirari</h3>
-      <h3><b>Edad: </b>21</h3>
+      
       <h3><b>telefono: </b>916628409</h3>
       <h3><b>Correo: </b>edwardyq67@gmail.com</h3>
       
