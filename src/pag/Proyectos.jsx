@@ -3,7 +3,7 @@ import ing1 from '../img/trabajo1.jpg'
 import ing2 from '../img/trabajo2.jpg'
 import ing3 from '../img/trabajo3.jpg'
 import ing4 from '../img/trabajo4.jpg'
-
+import ing5 from '../img/trabajo5.jpg'
 const Proyectos = () => {
     /*<div className="card-proyeectos">
                     <a href="https://aesthetic-speculoos-998afc.netlify.app" target='_blank'>
@@ -25,7 +25,7 @@ const Proyectos = () => {
             <div  data-aos="zoom-in" className="container-proyectos">
             <div  className="card-proyeectos">
                     
-                    <a href="https://luminous-madeleine-13484b.netlify.app">
+                    <a href="https://ornate-longma-e63e02.netlify.app/">
                     <figure><div className="capa-pryectos">
                         <img src={ing4}/>
                     </div>
@@ -58,7 +58,7 @@ const Proyectos = () => {
                     </div>
                 </div>
                 <div className="card-proyeectos">
-                    <a href="https://preeminent-kleicha-314e2c.netlify.app" target='_blank'>
+                    <a href="https://aquamarine-pasca-43c6f1.netlify.app" target='_blank'>
                     <figure>
                         <img src={ing2}/>
                     </figure>
@@ -66,7 +66,7 @@ const Proyectos = () => {
                     <div className="contenido">
                         <h3>Busqueda</h3>
                         <p>Sirve para la búsqueda de los personajes de la serie de Rick and morty, podrás saber la información de ubicación, si esta vivo o no y mucho más</p>
-                            <a href="https://preeminent-kleicha-314e2c.netlify.app" target='_blank'><i className="fa-regular fa-eye"></i></a>
+                            <a href="https://aquamarine-pasca-43c6f1.netlify.app" target='_blank'><i className="fa-regular fa-eye"></i></a>
                         <a href="https://github.com/edwardyq67/rick-repaso.git" target='_blank'><i className="fa-brands fa-github"></i></a>
                    
                     </div>
@@ -82,6 +82,21 @@ const Proyectos = () => {
                         <p>Crea tu usuario en la Poke api, donde consiguieras información de los pokemones, como: su habilidades, ataques, poder y mucho mas</p>
                             <a href="https://ornate-daffodil-d31ad9.netlify.app" target='_blank'><i className="fa-regular fa-eye"></i></a>
                         <a href="https://github.com/edwardyq67/trabajo5" target='_blank'><i className="fa-brands fa-github"></i></a>
+                   
+                    </div>
+                    
+                </div>
+                <div className="card-proyeectos">
+                    <a href="https://negova-ferreteria-y-accesorios.netlify.app" target='_blank'>
+                    <figure>
+                        <img src={ing5}/>
+                    </figure>
+                    </a>
+                    <div className="contenido">
+                        <h3>Usuario</h3>
+                        <p>Es para una tienda pequeña, venta de tuberias y donde ubicarlo para comprar</p>
+                            <a href="https://negova-ferreteria-y-accesorios.netlify.app" target='_blank'><i className="fa-regular fa-eye"></i></a>
+                        <a href="https://github.com/edwardyq67/trabajoMaria.git" target='_blank'><i className="fa-brands fa-github"></i></a>
                    
                     </div>
                     
