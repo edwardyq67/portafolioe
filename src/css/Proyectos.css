@@ -4,7 +4,7 @@
     grid-gap:2px;
    text-align: center;
    overflow: hidden;
-    grid-template-columns:repeat(auto-fill,minmax(400px,1fr)) ;   
+    grid-template-columns:repeat(auto-fill,minmax(370px,1fr)) ;   
     grid-template-rows: auto;
     gap: 10px;
     padding-right: 10px;
